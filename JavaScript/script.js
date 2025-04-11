@@ -40,7 +40,7 @@ const countdown = setInterval(function () {
     minute: "2-digit",
   });
 
-  // Se a contagem regressiva terminar, exibe uma mensagem
+  // Se a contagem regressiva terminar, exibe uma mensagemrrrrrr
   if (distance < 0) {
     clearInterval(countdown);
     document.querySelector(".countdown-title").innerHTML =
